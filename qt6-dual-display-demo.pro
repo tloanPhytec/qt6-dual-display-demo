@@ -1,5 +1,8 @@
 QT += quick
 
+TEMPLATE = app
+TARGET = qt6-dual-display-demo
+
 SOURCES += \
         main.cpp
 
