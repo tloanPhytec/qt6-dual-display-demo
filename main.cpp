@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         // Pass screen name to QML
         perScreenEngine->rootContext()->setContextProperty("screenName", screens[i]->name());
 
-        const QUrl url(QStringLiteral("qrc:/test/main.qml"));
+        const QUrl url(QStringLiteral("qrc:/qt6-dual-display-demo/main.qml"));
         QObject::connect(
             perScreenEngine,
             &QQmlApplicationEngine::objectCreated,
