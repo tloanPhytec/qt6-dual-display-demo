@@ -8,8 +8,6 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    QQmlApplicationEngine engine;
-
     // Get screens
     QList<QScreen *> screens = QGuiApplication::screens();
     qDebug() << "Available screens:";
